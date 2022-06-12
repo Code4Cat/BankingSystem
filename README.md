@@ -8,18 +8,20 @@ This is a simple Banking System. It can perform some basic operations including 
 ## File Structure
 
 ```
-📦src
- ┣ 📦Exceptions                   ## Storing custom exceptions
- ┣  ┣ 📜 InsufficientFundsException                 
- ┣  ┣ 📜 WithdrawalLimitReachedException         
- ┃                                ## Enums
- ┣ 📜Currency                       
- ┣ 📜TransactionType                       
- ┃                                ## Main Components
- ┣ 📜Main                             # Menu-driven main program
- ┣ 📜User                             # User class. A user object can have many BankAccounts
- ┣ 📜BankAccount                      # BankAccount class. A BankAccount must belongs to one user.
- ┣ 📜Transaction                      # Transaction class.
+ ┣ 📦src
+ ┣  ┣ 📦Exceptions                   ## Storing custom exceptions
+ ┣  ┣  ┣ 📜 InsufficientFundsException                 
+ ┣  ┣  ┣ 📜 WithdrawalLimitReachedException         
+ ┣  ┃                                ## Enums
+ ┣  ┣ 📜Currency                       
+ ┣  ┣ 📜TransactionType                       
+ ┣  ┃                                ## Main Components
+ ┣  ┣ 📜Main                             # Menu-driven main program
+ ┣  ┣ 📜User                             # User class. A user object can have many BankAccounts
+ ┣  ┣ 📜BankAccount                      # BankAccount class. A BankAccount must belongs to one user.
+ ┣  ┣ 📜Transaction                      # Transaction class.
+ ┃  
+ ┣ BankingSystem.jar                 ## Executable JAR file
  ```
 
 ## Others
