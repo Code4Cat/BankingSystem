@@ -1,7 +1,7 @@
 package Exceptions;
 
-public class InsufficientFundsExpection extends Exception {
-    public InsufficientFundsExpection() {
+public class InsufficientFundsException extends Exception {
+    public InsufficientFundsException() {
         super("Insufficient Funds");
     }
 }

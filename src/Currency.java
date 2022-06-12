@@ -1,2 +1,1 @@
-package PACKAGE_NAME;public class Currency {
-}
+public enum Currency {USD, HKD, SGD}
