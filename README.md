@@ -25,7 +25,7 @@ This is a simple Banking System. It can perform some basic operations including 
  ```
 
 ## Others
-`OSL_FEE`, `Aice` and `Bob` are the pre-defined user accounts. For simplicity, user can login to the system by typing the username (case-sensitive)
+`OSL_FEE`, `Alice` and `Bob` are the pre-defined user accounts. For simplicity, user can login to the system by typing the username (case-sensitive)
 
 
 
